@@ -1,0 +1,38 @@
+body{
+    font-style: oblique;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+a{
+    font-size: 30
+}
+*{
+    box-sizing: border-box;
+}
+.modal-container{
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    left: 0;
+    background-color: darkgrey;
+}
+.modal{
+    background-color: white;
+}
+.modal-container.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+#mahatma{
+    background-image: url("mahatma%20gandhi.jfif");
+    width: 200px;
+    height: 200px;
+}
+#nehru{
+    background-image: url("nehru.jfif");
+    width: 200px;
+    height: 200px;
+}
